@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Simple Concurrency</string>
+
+    <string name="counter_race">Counter Race</string>
+    <string name="counter_race_description">Race condition, atomicity, synchronized, lock, atomic integer</string>
+
+    <string name="visibility_stop_flag">Visibility &amp; Stop Flag</string>
+    <string name="visibility_stop_flag_description">Volatile visibility, stop flag, and shared state observation</string>
+
+    <string name="cancellation_lab">Cancellation Lab</string>
+    <string name="cancellation_lab_description">Coroutine cancellation, isActive, ensureActive, cooperative work</string>
+
+    <string name="exception_lab">Exception Lab</string>
+    <string name="exception_lab_description">launch vs async, await, coroutineScope, supervisorScope</string>
+
+    <string name="flow_dashboard">Flow Dashboard</string>
+    <string name="flow_dashboard_description">Cold Flow, StateFlow, SharedFlow, state and events</string>
+
+    <string name="producer_consumer">Producer / Consumer</string>
+    <string name="producer_consumer_description">Task queue, consumers, backlog, parallel processing</string>
 </resources>
