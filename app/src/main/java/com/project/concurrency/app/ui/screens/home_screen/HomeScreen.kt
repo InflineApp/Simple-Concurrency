@@ -1,4 +1,4 @@
-package com.project.concurrency.app.ui.screens
+package com.project.concurrency.app.ui.screens.home_screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -15,7 +15,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.project.concurrency.app.R
-import com.project.concurrency.app.ui.components.home_screen.HomeCard
 import com.project.concurrency.app.ui.theme.Blue
 import com.project.concurrency.app.ui.theme.Green
 import com.project.concurrency.app.ui.theme.Orange

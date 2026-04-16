@@ -5,12 +5,13 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.project.concurrency.app.ui.screens.CancellationLabScreen
-import com.project.concurrency.app.ui.screens.CounterRaceScreen
+import com.project.concurrency.app.ui.screens.counter_race_screen.CounterRaceScreen
 import com.project.concurrency.app.ui.screens.ExceptionLabScreen
 import com.project.concurrency.app.ui.screens.FlowDashboardScreen
-import com.project.concurrency.app.ui.screens.HomeScreen
+import com.project.concurrency.app.ui.screens.home_screen.HomeScreen
 import com.project.concurrency.app.ui.screens.ProducerConsumerScreen
 import com.project.concurrency.app.ui.screens.VisibilityStopFlagScreen
+import com.project.concurrency.app.ui.screens.counter_race_screen.CounterRaceRoute
 
 @Composable
 fun NavGraph(
@@ -44,7 +45,7 @@ fun NavGraph(
         }
 
         composable(Routes.CounterRace.route) {
-            CounterRaceScreen()
+            CounterRaceRoute()
         }
 
         composable(Routes.VisibilityStopFlag.route) {
