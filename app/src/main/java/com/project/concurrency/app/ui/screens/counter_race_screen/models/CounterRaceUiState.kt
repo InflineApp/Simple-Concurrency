@@ -9,5 +9,4 @@ data class CounterRaceUiState(
     val lostUpdates: Int = 0,
     val executionTime: Long? = null,
     val status: CounterRaceStatus = CounterRaceStatus.Idle,
-    val logs : List<String> = emptyList()
 )

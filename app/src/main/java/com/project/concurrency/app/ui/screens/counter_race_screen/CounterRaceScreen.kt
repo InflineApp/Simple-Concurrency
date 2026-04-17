@@ -17,7 +17,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.project.concurrency.app.R
 import com.project.concurrency.app.ui.screens.counter_race_screen.components.ActionSection
-import com.project.concurrency.app.ui.screens.counter_race_screen.components.LogSection
 import com.project.concurrency.app.ui.screens.counter_race_screen.components.ResultSection
 import com.project.concurrency.app.ui.screens.counter_race_screen.components.SettingsSection
 import com.project.concurrency.app.ui.screens.counter_race_screen.models.CounterRaceMode
@@ -68,10 +67,6 @@ fun CounterRaceScreen(
         ActionSection(
             onRunClick = onRunClicked,
             onResetClick = onResetClicked
-        )
-        Spacer(Modifier.height(20.dp))
-        LogSection(
-            text = uiState.logs
         )
     }
 }
